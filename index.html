@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./assets/styles/estilosHome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&family=Bree+Serif&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg menu navbar-dark fixed-top" id="menu" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#header">World Of Hip-hop</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#productos">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar album" aria-label="Search" id="buscador">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+        
+        </div>
+        <section id="inicio">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-6">
+                        <img src="./assets/img/banner.jpg" alt="foto1" class="img-fluid w-100">
+                    </div>
+                    <div class="col-4 align-self-center">
+                        <h4>Bienvenido a World Of Hip-hop</h4>
+                        <p>Bienvenido a world of hip-hop. Ofrecemos una amplia selección de álbumes de artistas destacados de la escena musical urbana de Colombia.
+                          <br>
+                          En nuestra tienda, puedes encontrar los últimos lanzamientos de tus artistas favoritos, así como descubrir nuevos talentos emergentes. Además, ofrecemos una variedad de formatos de álbumes, desde CD y vinilo hasta descargas digitales, para que puedas elegir la opción que más te convenga.
+                          <br>
+                          Nuestro objetivo es brindarte una experiencia de compra en línea fácil y segura, por lo que contamos con un sistema de pago en línea seguro y confiable. También ofrecemos envío a domicilio en toda Colombia para que puedas recibir tus compras en la comodidad de tu hogar.
+                          <br>
+                          somos tu tienda en línea de confianza para todas tus necesidades de música de rap y hip-hop. Esperamos poder brindarte la mejor experiencia de compra y ayudarte a descubrir la música urbana más emocionante de Colombia.
+                          <br><br>
+                          ¡¡¡Sin la musica la vida es insignificante,
+                          Comprate tu album y parchate!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="productos">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-md-5 g-3" id="fila">
+
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+        <ul class="social-links">
+        <li class="facebook"><a href="https://www.facebook.com/sebastian.berrio.7"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li class="github"><a href="https://github.com/sebastiangib"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+        <li class="instagram"><a href="https://www.instagram.com/sebastian_berrio7/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+        <li class="twitter"><a href="https://twitter.com/?lang=es"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+        <li class="whatsapp"><a href="https://www.whatsapp.com/?lang=es"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./src/controllers/controladorHome.js" type="module"></script>
+    
+
+</body>
+</html>
