@@ -18,14 +18,14 @@ export let productos=Array(
     {
         nombre:"Manzanas a la vuelta",
         descripcion:"Manzanas a la vuelta es un album musical, principalmente compuesto por Doble Porción, con la discografia de Moebiuz, y se publico el 16 de septiembre de 2016. Su genero es Hip-hop/rap. El grupo esta formado por Metricas Frias y Mañas Ru-fino.",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Manzanas%20a%20la%20vuelta2.png.jpg?alt=media&token=50e8ad95-576a-458f-8ab7-e0fed095ea7a","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20manzanas%20a%20la%20vuelta.png?alt=media&token=78f059ce-b9c7-40a6-810f-db100e40db41"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Manzanas%20a%20la%20vuelta2.png.jpg?alt=media&token=50e8ad95-576a-458f-8ab7-e0fed095ea7a","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20manzanas%20a%20la%20vuelta.png?alt=media&token=d2034771-d162-4aad-9071-0e8847fa6284"],
         precio:90000,
         popularidad:4.2
     },
     {
         nombre:"Serenata sin mariachis",
         descripcion:"Serenata sin mariachis es un album musical, principalmente compuesto por Metricas Frias, con la discografia de Moebiuz, y se publico el 10 de agosto de 2016. Su genero es Música pop india, Japanese Hip Hop/Rap, Hip-hop/rap, Argentinian Trap y J-Pop.",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Serenata%20sin%20mariachis2.png.jpg?alt=media&token=fd8b0dc5-3c7b-47d0-af1c-d8e41deb2703","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20serenata%20sin%20mariachis.png?alt=media&token=4e19bf0e-d4e1-4ccf-a1e5-c437e9cd2784"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Serenata%20sin%20mariachis2.png.jpg?alt=media&token=fd8b0dc5-3c7b-47d0-af1c-d8e41deb2703","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20serenata%20sin%20mariachis.png?alt=media&token=b0ab03d3-78a1-4d0c-ab8e-909df9f6d0a8"],
         precio:100000,
         popularidad:4.2
     },
@@ -53,7 +53,7 @@ export let productos=Array(
     {
         nombre:"Oculto",
         descripcion:"Oculto es un album musical, principalmente compuesto por Granuja y Metricas Frias, con la discografia de Granuja, y se publico el 4 de diciembre de 2020. Su genero es Hip-hop/rap.",
-        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Oculto2.jpg?alt=media&token=699b59da-6d65-4355-a979-43a816003b4c","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20oculto.png?alt=media&token=afc9b8ff-f6dd-497e-b0f0-8d6f9946d68a"],
+        fotos:["https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/Oculto2.jpg?alt=media&token=699b59da-6d65-4355-a979-43a816003b4c","https://firebasestorage.googleapis.com/v0/b/sgbtienda-f1f36.appspot.com/o/cd%20oculto.png?alt=media&token=388330a5-b5e9-4c22-9ef3-31d4ae59c28d"],
         precio:80000,
         popularidad:4.2
     },
